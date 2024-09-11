@@ -5,7 +5,7 @@ import styles from './Navbar.module.css';
 const Navbar = () => {
   const location = useLocation();
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const navItems = ['Home', 'Product', 'Services', 'Contact', 'FAQ'];
+  const navItems = ['Home', 'About','Product', 'Services', 'Contact', 'FAQ'];
 
   const handleNavToggle = () => {
     setIsNavOpen(prevState => !prevState);
